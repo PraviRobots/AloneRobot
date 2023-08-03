@@ -35,7 +35,7 @@ class Config(object):
     INFOPIC = True
     URL = None
     SPAMWATCH_API = "ibGjchtz3djmcaIDiG3qoLX8KE0Npo1ChFiH7QGpjoQY1uB7BGOPJ~DOT07c0VSH"  # go to support.spamwat.ch to get key
-    SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
+    SPAMWATCH_SUPPORT_CHAT = "@kannada_chatting_hubs"
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
@@ -47,7 +47,7 @@ class Config(object):
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     TIGERS = get_user_list("elevated_users.json", "6079943111")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
-    DONATION_LINK = "https://t.me/ALONE_WAS_BOT" # EG, paypal
+    DONATION_LINK = "https://t.me/Mr_Local_King_Pravi" # EG, paypal
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
